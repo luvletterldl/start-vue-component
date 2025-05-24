@@ -1,0 +1,51 @@
+{
+  "name": "@vue-component/ui",
+  "type": "module",
+  "version": "0.0.0",
+  "author": "lidongliang01",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://.git",
+    "directory": "packages/ui"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/ui.js"
+    }
+  },
+  "main": "dist/ui.js",
+  "module": "dist/ui.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build",
+    "dev:build": "vite build && tsc -d --emitDeclarationOnly && vue-typegen gen -s ./src -o ./dist",
+    "lint": "eslint .",
+    "format": "eslint . --fix"
+  },
+  "peerDependencies": {
+    "vue": "^3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": ""
+  },
+  "devDependencies": {
+    "@babel/types": "^7.27.1",
+    "@types/node": "^22.15.21",
+    "@vitejs/plugin-vue": "^5.2.4",
+    "@vue/compiler-sfc": "^3.5.14",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vite-plugin-css-injected-by-js": "^3.5.2",
+    "vite-plugin-dts": "^4.5.4",
+    "vue": "^3.5.14",
+    "vue-tsc": "^2.2.10",
+    "vue-typegen": "^0.2.0"
+  }
+}

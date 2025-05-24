@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "jsx": "preserve",
+    "lib": [
+      "ESNext",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "rootDir": ".",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "paths": {
+      "@vue-componet/ui": [
+        "./packages/ui"
+      ]
+    },
+    "resolveJsonModule": true,
+    "types": [
+      "vitest/globals"
+    ],
+    "strict": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "packages/doc/*",
+    "packages/ui/*",
+    "packages/**/*.vue"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/**/*.md",
+    "**/dist"
+  ]
+}
