@@ -8,8 +8,8 @@
       "DOM.Iterable"
     ],
     "rootDir": ".",
-    "module": "esnext",
-    "moduleResolution": "node",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "paths": {
       "@vue-componet/ui": [
         "./packages/ui"

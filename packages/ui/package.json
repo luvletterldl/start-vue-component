@@ -36,16 +36,16 @@
     "registry": ""
   },
   "devDependencies": {
-    "@babel/types": "^7.27.1",
-    "@types/node": "^22.15.21",
-    "@vitejs/plugin-vue": "^5.2.4",
-    "@vue/compiler-sfc": "^3.5.14",
-    "typescript": "^5.8.3",
-    "vite": "^6.3.5",
-    "vite-plugin-css-injected-by-js": "^3.5.2",
-    "vite-plugin-dts": "^4.5.4",
-    "vue": "^3.5.14",
-    "vue-tsc": "^2.2.10",
-    "vue-typegen": "^0.2.0"
+    "@babel/types": "catalog:",
+    "@types/node": "catalog:",
+    "@vitejs/plugin-vue": "catalog:",
+    "@vue/compiler-sfc": "catalog:",
+    "typescript": "catalog:",
+    "vite": "catalog:",
+    "vite-plugin-css-injected-by-js": "catalog:",
+    "vite-plugin-dts": "catalog:",
+    "vue": "catalog:",
+    "vue-tsc": "catalog:",
+    "vue-typegen": "catalog:"
   }
 }

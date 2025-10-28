@@ -1,0 +1,17 @@
+{
+  "name": "@vue-component/core",
+  "type": "module",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown dev"
+  },
+  "devDependencies": {
+    "tsdown": "catalog:"
+  }
+}
